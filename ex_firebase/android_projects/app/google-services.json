@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996514257021",
+    "firebase_url": "https://yapark-hanlee-41dfc.firebaseio.com",
+    "project_id": "yapark-hanlee-41dfc",
+    "storage_bucket": "yapark-hanlee-41dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996514257021:android:a50dcdedc3b3fea9ffb914",
+        "android_client_info": {
+          "package_name": "com.example.a03_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996514257021-v2ekmqcciue3ehb72fm5rkprm4gpm155.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a03_02",
+            "certificate_hash": "7b12a85f57f46dea9078e85a33c9117cf1f409c9"
+          }
+        },
+        {
+          "client_id": "996514257021-231cd563neroucjjv3s3v3tdg612vfr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5szv0xybV9KVEMPwJ6eguwDkYwE6qtzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996514257021-231cd563neroucjjv3s3v3tdg612vfr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
