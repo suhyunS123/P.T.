@@ -1,4 +1,4 @@
-package com.example.a03_02;
+package com.example.pt_signup;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,24 +6,18 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
 
-public class AfterActivity extends AppCompatActivity implements View.OnClickListener {
+public class DefaultActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnRevoke, btnLogout;
-    TextView tv_nn, tv_Uid;
     private FirebaseAuth mAuth ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_after_login);
+        setContentView(R.layout.activity_default);
 
-        String cur_uid = G.user.Uid;
-        String cur_nn = G.user.nickname;
-        tv_nn = (TextView)findViewById(R.id.tv_nn);
-        tv_Uid = (TextView)findViewById(R.id.tv_Uid);
-        tv_nn.setText(G.user.nickname);
-        tv_Uid.setText(G.user.Uid);
 
         btnLogout = (Button)findViewById(R.id.btn_logout);
         btnRevoke = (Button)findViewById(R.id.btn_revoke);
