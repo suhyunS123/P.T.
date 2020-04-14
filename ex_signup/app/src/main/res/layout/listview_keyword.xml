@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:id="@+id/imageView1"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="관광지 이름"
+
+        android:textSize="23sp"
+        android:layout_toEndOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="관광지 장소"
+
+        android:textSize="16sp"
+        android:layout_below="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="관광지 id"
+        android:layout_marginBottom="20dp"
+
+        android:textSize="16sp"
+        android:layout_below="@+id/textView2" />
+
+
+
+</RelativeLayout>

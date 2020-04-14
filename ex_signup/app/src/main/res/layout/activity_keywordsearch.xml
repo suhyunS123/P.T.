@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeywordSearchActivity">
+
+
+    <EditText
+        android:id="@+id/editText_keyword"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp" />
+    <Button
+        android:id="@+id/btn_keywordsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/search"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@+id/editText_keyword"
+        android:layout_toEndOf="@+id/editText_keyword" />
+
+    <ListView
+        android:id="@+id/listView_keywordsearch"
+        android:layout_below="@+id/editText_keyword"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
