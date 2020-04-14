@@ -110,7 +110,7 @@ public class KeywordSearchActivity extends AppCompatActivity {
             if (eventType == XmlPullParser.START_TAG) {
                 String startTag = parser.getName();
                 Log.d(TAG, "startTag읽음"+startTag);
-                if (startTag.equals("add1")) {
+                if (startTag.equals("addr1")) {
                     step = STEP_ADDR;
                 } else if (startTag.equals("contentid")) {
                     step = STEP_CID;
